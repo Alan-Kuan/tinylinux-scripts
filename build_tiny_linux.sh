@@ -1664,7 +1664,7 @@ compress_final_package()
 
 download_packages           # Download stage3/portage.
 unpack_packages             # Unpack stage3/portage into buildroot.
-copy_scripts                # Copy build_tiny_linux.sh and optionally other scripts into buildroot/buidscripts.
+copy_scripts                # Copy build_tiny_linux.sh and optionally other scripts into buildroot/buildscripts.
 run_in_chroot               # chroot into buildroot (Gentoo image).
 source /etc/profile         # Update environment of the root user.
 check_env                   # Sanity check.
